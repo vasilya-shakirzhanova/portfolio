@@ -1,2 +1,26 @@
 /vasilya-shakirzhanova/
 .DS_Store
+
+# Local settings, credentials, and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+.netrc
+.npmrc
+.aws/
+.ssh/
+
+# Temporary files and optional local tooling
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+*.tmp
+.vscode/
+.idea/
